@@ -1,4 +1,4 @@
-# building a vstudio on debian9 toy system for singularity for CI
+# building a vstudio on debian10 toy system for singularity for CI
 
 Tru <tru@pasteur.fr>
 
@@ -12,7 +12,7 @@ Tru <tru@pasteur.fr>
 
 ## Usage
 
-- Singularity [![Singularity build](https://github.com/truatpasteurdotfr/singularity-debian9-visualstudio/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-debian9-visualstudio/actions/workflows/singularity-publish.yml)
+- Singularity [![Singularity build](https://github.com/truatpasteurdotfr/singularity-debian10-visualstudio/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-debian10-visualstudio/actions/workflows/singularity-publish.yml)
 ```
-singularity run -B /run  oras://ghcr.io/truatpasteurdotfr/singularity-debian9-visualstudio:latest
+singularity run -B /run  oras://ghcr.io/truatpasteurdotfr/singularity-debian10-visualstudio:latest
 ```
