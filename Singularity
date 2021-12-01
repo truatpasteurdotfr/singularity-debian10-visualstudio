@@ -18,6 +18,7 @@ apt-get update && apt-get -y install \
 	libsecret-1-0 \
 	libxkbfile1 \
 	libxss1 \
+	libxshmfence1 
 
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
